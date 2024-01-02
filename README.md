@@ -13,6 +13,6 @@ All of the following folders are projects done during the studies:
 
 | Project name | Description |
 | ------------ | ----------- |
-| [`0x00-hello_world`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **Python language** |
+| [`0x00-python-hello_world`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **Python language** |
 # Low-level programming & Algorithm
-| [`0x01-variables_if_else_while`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x01-python_if_else_while) | It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **Python language** |
+| [`0x01-variables_if_elsewhile`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x01-python_if_else_while) | It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **Python language** |
