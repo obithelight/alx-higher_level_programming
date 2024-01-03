@@ -29,7 +29,9 @@ How to use the Python interpreter:
 
 How to print text and variables using print:
 - Use the print function. For example:
-	![py1](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/1c44cc77-954b-4f98-b371-de14ff0098a1)
+
+![py1](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/1c44cc77-954b-4f98-b371-de14ff0098a1)
+
 How to use strings:
 - Strings in Python are defined using single (') or double (") quotes. Example:
 -	my_string = "Hello, Python!"
