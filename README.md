@@ -13,5 +13,5 @@ All of the following folders are projects done during the studies:
 
 | Project name | Description |
 | ------------ | ----------- |
-| [`0x00-python-hello_world`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about the basics of python, its basics commands (print, input), and process using python3 in the **Python language** |
+| [`0x00-python-hello_world`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about the basics of python, its basics commands (print, input), and processes using python3 in the **Python language** |
 | [`0x01-python-if_else_loops_functions`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions) | It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in the **Python language** |
