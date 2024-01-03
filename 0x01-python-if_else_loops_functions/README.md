@@ -1,5 +1,6 @@
 # 0x01. Python - if/else, loops, functions
 
+![python-if-else](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/8ad4b893-d718-47a2-b712-7621a26bf793)
 
 ## Learning Objectives
 ### Why Python programming is awesome:
