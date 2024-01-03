@@ -1,4 +1,7 @@
 # 0x00. Python - Hello, World
+
+![python_readme](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/fe12f0a6-e3a4-4d69-8fec-cb8d4ea6c4cf)
+
 - Python is a high-level, general-purpose programming language known for its readability, simplicity, and versatility. It was created by Guido van Rossum and first released in 1991. Python has become one of the most popular programming languages globally, finding applications in various domains such as web development, data science, artificial intelligence, machine learning, automation, and more.
 
 ## Learning Objectives
