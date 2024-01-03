@@ -25,7 +25,6 @@ How to use the Python interpreter:
 - Open a terminal or command prompt and type python to enter the Python interpreter. You can then type Python code interactively and see the results immediately.
 
 How to print text and variables using print:
-- Use the print function. For example:
 	print("Hello, World!")
 	variable = 42
 	print("The value of the variable is:", variable)
