@@ -32,7 +32,7 @@ How to print text and variables using print:
 
 How to use strings:
 - Strings in Python are defined using single (') or double (") quotes. Example:
-	my_string = "Hello, Python!"
+-	my_string = "Hello, Python!"
 
 What are indexing and slicing in Python:
 - Indexing refers to accessing individual elements of a sequence (like a string or list) using their position. Slicing involves extracting a portion of a sequence. Example:
