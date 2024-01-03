@@ -1,6 +1,6 @@
-# Low-higher programming & Algorithm
+# Higher-level programming & Algorithm
 
-Module of **Low-level programming** and **algorithm**, carried out during **Full Stack Software Engineering studies** at **[ALX]**.
+Module of **High-level programming** and **algorithm**, carried out during **Full Stack Software Engineering studies** at **[ALX]**.
 
 ## Technologies
 * All scripts written in vi editor
@@ -13,5 +13,5 @@ All of the following folders are projects done during the studies:
 
 | Project name | Description |
 | ------------ | ----------- |
-| [`0x00-python-hello_world`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **Python language** |
-| [`0x01-python-if_else_loops_functions`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions) | It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **Python language** |
+| [`0x00-python-hello_world`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about the basics of python, its basics commands (print, input), and process using python3 in the **Python language** |
+| [`0x01-python-if_else_loops_functions`](https://github.com/obithelight/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions) | It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in the **Python language** |
