@@ -4,4 +4,5 @@ def add(a, b):
     b = 2
     c = a + b
     print(f"{a} + {b} = {c}")
-add(1, 2)
+if __name__ == __main__:
+    add(1, 2)
