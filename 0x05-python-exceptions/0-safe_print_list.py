@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def safe_print_list(my_list=[], x=0):
     try:
         elements = my_list[:x]
@@ -10,5 +9,5 @@ def safe_print_list(my_list=[], x=0):
             count = count + 1
         return count
     except:
-        print(elements,end="")
+        print(elements, sep="", end="")
         print()
