@@ -36,8 +36,8 @@ Use Exceptions When:
 Error Logging: Catching exceptions facilitates error logging, helping developers identify and troubleshoot issues.
 
 ### How to Raise a Built-in Exception:
-Use the `raise` statement, followed by the exception type. For example:
-	`raise ValueError("This is a custom error message.")`
+- Use the `raise` statement, followed by the exception type. For example: 
+`raise ValueError("This is a custom error message.")`
 
 ### When to Implement a Clean-Up Action After an Exception:
 - Use the `finally` block to implement clean-up actions that must be executed regardless of whether an exception occurs.
