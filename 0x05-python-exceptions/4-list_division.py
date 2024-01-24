@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def list_division(my_list_1, my_list_2, list_length):
 
     mylist = []
@@ -17,6 +18,6 @@ def list_division(my_list_1, my_list_2, list_length):
             print("out of range")
             answer = 0
         finally:
-            return mylist.append(answer)
+            mylist.append(answer)
 
     return mylist
