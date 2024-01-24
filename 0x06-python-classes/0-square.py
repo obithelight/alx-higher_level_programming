@@ -1,9 +1,6 @@
 #!/usr/bin/python3
+"""Module for a square."""
 
 class Square:
-    """
-    This class defines a square.
-    It will be left empty, to be used
-    later in the program.
-    """
+    """Defines an empty square."""
     pass
