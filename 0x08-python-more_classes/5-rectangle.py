@@ -67,5 +67,4 @@ class Rectangle:
     def __del__(self):
         '''Deletes the rectangle'''
         print('Bye rectangle...')
-        del self.__width
-        del self.__height
+        del self.__width, self.__height
