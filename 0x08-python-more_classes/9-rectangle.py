@@ -75,10 +75,8 @@ class Rectangle:
 
         content = []
         for a in range(self.__height):
-            [content.append(str(self.print_symbol)) for b in range(self.__width)]
-            if a != (self.__height - 1):
-                content.append('\n')
-            return ''.join(content)
+            content.append(str(self.print_symbol) * self.__width)
+        return '\n'.join(content)
 
     def __repr__(self):
         '''Returns official string representation of rectangle'''
