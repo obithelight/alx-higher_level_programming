@@ -86,4 +86,3 @@ class Rectangle:
         '''Deletes the rectangle'''
         print('Bye rectangle...')
         Rectangle.number_of_instances -= 1
-        del self.__width, self.__height
