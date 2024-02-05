@@ -1,1 +1,32 @@
-#!/usr/bin/python3
+tests for 1-my_list.txt
+=======================
+
+>>> alist = MyList()
+
+>>> alist.append(5)
+
+>>> print(alist)
+[5]
+>>> alist.print_sorted()
+[5]
+
+>>> alist = MyList()
+>>> alist.append(5)
+>>> alist.append(4)
+>>> alist.append(3)
+>>> alist.append(2)
+>>> alist.append(1)
+>>> alist.print_sorted()
+[1, 2, 3, 4, 5]
+
+>>> alist = MyList()
+>>> alist.print_sorted()
+[]
+
+>>> alist = MyList()
+>>> isinstance(alist, list)
+True
+
+>>> alist = MyList()
+>>> issubclass(MyList, list)
+True
