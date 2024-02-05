@@ -9,4 +9,4 @@ class MyList(list):
         ''' Defines and prints the list '''
 
         sorted_list = sorted(self)
-        print (sorted_list)
+        print(sorted_list)
