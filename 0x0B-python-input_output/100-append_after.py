@@ -8,13 +8,15 @@ def append_after(filename="", search_string="", new_string=""):
     after each line containing a specific string.
     '''
 
+    text = ''
+
     # Open the input file for reading
-    with open(filename, 'r') as f:
-        lines = f.readlines()  # Read all lines into a list
+    with open(filename) as r:
+        for line in r:
+            text += line
+            if search_string in line:
+                text += new_string
 
     # Open a new file for writing
-    with open(filename, 'w') as f:
-        for line in lines:
-            f.write(line)
-            if search_string in line:
-                f.write(new_string + '\n')
+    with open(filename, 'w') as w:
+        w.write(text)
