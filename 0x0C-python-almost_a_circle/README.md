@@ -42,7 +42,7 @@ To implement unit testing in a large project, you can follow these steps:
 
 `
 def example_function(param1, param2, named_param1=None, named_param2=None):
-    - # Function body
+    # Function body
     pass
 `
 - Then, you can call this function like:
