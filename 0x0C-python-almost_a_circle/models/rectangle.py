@@ -44,12 +44,12 @@ class Rectangle(Base):
         self.__height = value
 
     @property
-    def __x(self):
+    def x(self):
         ''' Retrieves x '''
-        return self.x
+        return self.__x
 
-    @__x.setter
-    def __x(self, value):
+    @x.setter
+    def x(self, value):
         ''' Sets the width '''
         if not isinstance(value, int):
             raise TypeError('x must be an integer')
@@ -58,12 +58,12 @@ class Rectangle(Base):
         self.__x = value
 
     @property
-    def __y(self):
+    def y(self):
         ''' Retrieves y '''
-        return self.y
+        return self.__y
 
-    @__y.setter
-    def __y(self, value):
+    @y.setter
+    def y(self, value):
         ''' Sets y '''
         if not isinstance(value, int):
             raise TypeError('y must be an integer')
