@@ -1,6 +1,10 @@
 # 0x0C. Python - Almost a circle
 - Python, OOP
 
+
+https://github.com/obithelight/alx-higher_level_programming/assets/91734251/fc26c6ac-8bb1-4861-9d35-fa5ef439aee1
+
+
 ## Learning Objectives
 
 ### What is Unit testing and how to implement it in a large project
@@ -38,7 +42,7 @@ To implement unit testing in a large project, you can follow these steps:
 
 `
 def example_function(param1, param2, named_param1=None, named_param2=None):
-    # Function body
+    - # Function body
     pass
 `
 - Then, you can call this function like:
