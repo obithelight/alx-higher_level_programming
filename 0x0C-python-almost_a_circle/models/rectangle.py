@@ -9,19 +9,19 @@ class Rectangle(Base):
 
     def __init__(self, width, height, x=0, y=0, id=None):
         ''' Initialises the rectangle class '''
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
         super().__init__(id)
 
     @property
-    def __width(self):
+    def width(self):
         ''' Retrieves the width '''
-        return self.width
+        return self.__width
 
-    @__width.setter
-    def __width(self, value):
+    @width.setter
+    def width(self, value):
         ''' Sets the width '''
         if not isinstance(value, int):
             raise TypeError('width must be an integer')
@@ -30,12 +30,12 @@ class Rectangle(Base):
         self.__width = value
 
     @property
-    def __height(self):
+    def height(self):
         ''' Retrieves the height '''
-        return self.height
+        return self.__height
 
-    @__height.setter
-    def __height(self, value):
+    @height.setter
+    def height(self, value):
         ''' Sets the width '''
         if not isinstance(value, int):
             raise TypeError('height must be an integer')
