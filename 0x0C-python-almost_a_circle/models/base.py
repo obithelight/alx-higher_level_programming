@@ -98,12 +98,13 @@ class Base:
 
         try:
             with open(filename, "r") as file:
-                list_dict = Base.from_json_string(file.read())
-
-                list_instances = []
+                # list_dict = Base.from_json_string(file.read())
+                json_str = file.read()
+                list_dict = cls.from_json_string(json_str)
+                instances = []
 
                 for item in list_dict:
-                    list_instances.append(cls.create(**item))
-                return list_instances
+                    instances.append(cls.create(**item))
+                return instances
         except FileNotFoundError:
             return []
