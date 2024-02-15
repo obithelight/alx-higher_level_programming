@@ -80,6 +80,14 @@ class Rectangle(Base):
         if self.__width == 0 or self.__height == 0:
             print("")
             return
-
         for _ in range(self.height):
             print("#" * self.width)
+
+    def __str__(self):
+        '''
+        Return the print() and str() representation of the Rectangle
+        '''
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
+                                                       self.x, self.y,
+                                                       self.width,
+                                                       self.height)
