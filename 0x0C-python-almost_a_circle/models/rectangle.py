@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 ''' Represents a Python Module '''
 
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):
@@ -90,3 +90,19 @@ class Rectangle(Base):
                                                        self.x, self.y,
                                                        self.width,
                                                        self.height)
+
+    def update(self, *args):
+        ''' Update and assign an argument to each attribute '''
+        for index, arg in enumerate(args):
+            if index == 0:
+                self.id = arg
+            elif index == 1:
+                self.width = arg
+            elif index == 2:
+                self.height = arg
+            elif index == 3:
+                self.x = arg
+            elif index == 4:
+                self.y = arg
+            else:
+                continue
