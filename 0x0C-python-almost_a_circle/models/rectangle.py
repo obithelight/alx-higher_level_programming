@@ -77,11 +77,10 @@ class Rectangle(Base):
 
     def display(self):
         ''' prints (#) to stdout of the rectangle instance '''
-        if self.__width == 0 or self.__height == 0:
-            print("")
-            return
+        for _ in range(self.y):
+            print()
         for _ in range(self.height):
-            print("#" * self.width)
+            print(" " * self.x + "#" * self.width)
 
     def __str__(self):
         '''
