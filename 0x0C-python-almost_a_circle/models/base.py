@@ -148,7 +148,6 @@ class Base:
         """
         # corrected the name of the file extension from .json to .csv
         file_name = "{}.csv".format(cls.__name__)
-        
         try:
             with open(file_name, "r") as csvfile:
                 if cls.__name__ == "Rectangle":
@@ -211,7 +210,6 @@ class Base:
                 turt.left(90)
 
             turt.hideturtle()
-
 
         turt.color("#FFFF00")
 
