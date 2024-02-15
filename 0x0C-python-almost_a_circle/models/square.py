@@ -13,6 +13,6 @@ class Square(Rectangle):
     def __str__(self):
         ''' Informal string representation of square class '''
         return "[Square] ({}) {}/{} - {}".format(self.id,
-                                               self.x,
-                                               self.y,
-                                               self.width)
+                                                 self.x,
+                                                 self.y,
+                                                 self.width)
