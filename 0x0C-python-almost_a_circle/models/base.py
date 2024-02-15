@@ -98,13 +98,22 @@ class Base:
 
         try:
             with open(filename, "r") as file:
-                # list_dict = Base.from_json_string(file.read())
+                # Read the contents of the file
                 json_str = file.read()
+
+                # Convert the JSON string to a list of dictionaries
                 list_dict = cls.from_json_string(json_str)
+
+                # Initialize an empty list to store instances
                 instances = []
 
+                # Create an instance for each dictionary and
+                # append it to the list
                 for item in list_dict:
                     instances.append(cls.create(**item))
+
+                # Return the list of instances
                 return instances
         except FileNotFoundError:
+            # if file doesn't exist, return an empty list
             return []
