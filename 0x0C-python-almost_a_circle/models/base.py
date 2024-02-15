@@ -84,3 +84,26 @@ class Base:
 
             dummy_instance.update(**dictionary)
             return dummy_instance
+
+    @classmethod
+    def load_from_file(cls):
+        '''
+        Load instances from a JSON file and returns a list of instances
+
+        Returns:
+            list: A list of instances loaded from the JSON file
+        '''
+
+        filename = cls.__name__ + ".json"
+
+        try:
+            with open(filename, "r") as file:
+                list_dict = Base.from_json_string(file.read())
+
+                list_instances = []
+
+                for item in list_dict:
+                    list_instances.append(cls.create(**item))
+                return list_instances
+        except FileNotFoundError:
+            return []
