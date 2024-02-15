@@ -27,3 +27,33 @@ class Square(Rectangle):
         ''' Sets the size of the square '''
         self.width = value
         self.height = value
+
+    def update(self, *args, **kwargs):
+        ''' assigns key word attributes to square class '''
+        if args:
+            for index, arg in enumerate(args):
+                if index == 0:
+                    self.id = arg
+                elif index == 1:
+                    self.width = arg
+                    self.height = arg
+                elif index == 2:
+                    self.x == arg
+                elif index == 3:
+                    self.y = arg
+                else:
+                    continue
+
+        elif len(kwargs) > 0:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                elif key == "size":
+                    self.width = value
+                    self.height = value
+                elif key == "x":
+                    self.x = value
+                elif key == "y":
+                    self.y = value
+                else:
+                    continue
