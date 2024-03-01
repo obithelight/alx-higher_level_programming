@@ -10,8 +10,8 @@ class Square:
         Args:
             size (int) - private instance attribute
         """
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     @property
     def size(self):
@@ -39,15 +39,15 @@ class Square:
         self.__position = value
 
     def area(self):
-        result = self.__size ** 2
+        result = self.size ** 2
         return result
 
     def my_print(self):
         """Print the square with the # character."""
-        if self.__size == 0:
+        if self.size == 0:
             print()
         else:
-            for item in range(self.__position[1]):
+            for item in range(self.position[1]):
                 print()
-            for item in range(self.__size):
-                print(" " * self.__position[0] + "#" * self.__size)
+            for item in range(self.size):
+                print(" " * self.position[0] + "#" * self.size)
