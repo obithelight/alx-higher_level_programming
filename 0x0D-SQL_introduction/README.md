@@ -1,5 +1,7 @@
 # 0x0D. SQL - Introduction
 
+![my_sql](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/d30869ba-cc02-4033-a332-aa361a2fe7e9)
+
 ## Learning Objectives
 
 - What’s a database
@@ -10,6 +12,6 @@
 - What does DDL and DML stand for
 - How to CREATE or ALTER a table
 - How to SELECT data from a table
-- How to INSERT, UPDATE or DELETE data
+- How to INSERT, UPDATE, or DELETE data
 - What are subqueries
 - How to use MySQL functions
