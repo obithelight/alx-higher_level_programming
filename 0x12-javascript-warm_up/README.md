@@ -1,7 +1,7 @@
 # 0x12. JavaScript - Warm-up
 - JavaScript
 
-![Javascript-535 png](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/7db1c4ac-2400-4d5e-a3eb-5fcb71f21ba0)
+![Javascript-535](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/1f5e200a-8cde-4424-85cc-b1a2cd511f0f)
 
 ## Learning Objectives
 
