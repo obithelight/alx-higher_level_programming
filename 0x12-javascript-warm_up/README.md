@@ -1,12 +1,14 @@
-# 0x12. JavaScript - Warm up
+# 0x12. JavaScript - Warm-up
 - JavaScript
+
+![Javascript-535 png](https://github.com/obithelight/alx-higher_level_programming/assets/91734251/7db1c4ac-2400-4d5e-a3eb-5fcb71f21ba0)
 
 ## Learning Objectives
 
 - Why JavaScript programming is amazing
 - How to run a JavaScript script
 - How to create variables and constants
-- What are differences between var, const and let
+- What are the differences between var, const and let
 - What are all the data types available in JavaScript
 - How to use the if, if ... else statements
 - How to use comments
@@ -17,5 +19,5 @@
 - What does a function that does not use any return statement return
 - Scope of variables
 - What are the arithmetic operators and how to use them
-- How to manipulate dictionary
+- How to manipulate a dictionary
 - How to import a file
