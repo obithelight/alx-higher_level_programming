@@ -1,15 +1,32 @@
 #!/usr/bin/python3
 """Module that lists all states from mySQL database"""
+import sys
 import MySQLdb
 
-if __name__ == "__main__":
-    db = MySQLdb.connect(user="obi", passwd="", db="hbtn_0e_0_usa")
+def list_states (username, password, database):
+    """lists all states from the database hbtn_0e_0_usa.
+    Ags:
+        username: mysql username
+        password: mysql password
+        database: mysql database
+    """
+    # Connect to the MySQL server
+    db = MySQLdb.connect(host='localhost',\
+            port=3306,\
+            user=username,\
+            passwd=password,\
+            db=database)
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states")
-    states = cursor.fetchall()
 
-    for state in states:
-        print(state)
+    # Execute the SQL query to fetch all states
+    cursor.execute("SELECT * FROM states ORDER BY id ASC")
 
-    cursor.close()
+    # Fetch all the rows from the query result
+    rows = cursor.fetchall()
+
+    # Print the results
+    for row in rows:
+        print(row)
+
+    # Close the database connection
     db.close()
