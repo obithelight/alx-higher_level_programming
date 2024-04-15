@@ -28,5 +28,6 @@ def list_states (username, password, database):
     for row in rows:
         print(row)
 
+if __name__ == "__main__":
     # Close the database connection
     db.close()
