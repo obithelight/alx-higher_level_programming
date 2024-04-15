@@ -2,13 +2,14 @@
 """Module that lists all states from mySQL database"""
 import MySQLdb
 
-db = MySQLdb.connect(user="obi", passwd="", db="hbtn_0e_0_usa")
-cursor = db.cursor()
-cursor.execute("SELECT * FROM states")
-states = cursor.fetchall()
+if __name__ == "__main__":
+    db = MySQLdb.connect(user="obi", passwd="", db="hbtn_0e_0_usa")
+    cursor = db.cursor()
+    cursor.execute("SELECT * FROM states")
+    states = cursor.fetchall()
 
-for state in states:
-    print(state)
+    for state in states:
+        print(state)
 
-cursor.close()
-db.close()
+    cursor.close()
+    db.close()
