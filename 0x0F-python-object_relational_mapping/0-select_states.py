@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Module that lists all states from mySQL database"""
 import MySQLdb
 
 if __name__ == "__main__":
