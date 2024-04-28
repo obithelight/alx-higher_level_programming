@@ -3,6 +3,7 @@
 Python script that evaluates candidates applying
 for a back-end position with multiple technical challenges
 '''
+import sys
 import requests
 
 
