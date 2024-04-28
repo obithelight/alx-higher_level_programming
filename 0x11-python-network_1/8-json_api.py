@@ -18,7 +18,7 @@ if __name__ == "__main__":
         if req == {}:
             print("No result")
         else:
-            print(req)
+            print(req.text)
 
     except ValueError:
         print("Not a valid JSON")
