@@ -10,9 +10,9 @@ if __name__ == "__main__":
     url = 'https://api.github.com/repos/obithelight/printf/commits'
 
     r = requests.get(url)
-    commits = r.json()
+    total_commits = r.json()
 
-    for commit in commits[:10]:
-        sha = commit.get('sha')
-        author = commit["commit"]["author"]["name"]
+    for each_commit in total_commits[:10]:
+        sha = each_commit.get('sha')
+        author = each_commit.get("commit").get("author").get("name")
         print(f"{sha}: {author}")
