@@ -8,8 +8,12 @@ request(url, (err, res, data) => {
   if (err) {
     console.error(err);
   } else {
-    const films = JSON.parse(data).results;
-    const match = films.filter((film) => film.characters.includes(actor));
-    console.log(match.length);
+    try {
+      const films = JSON.parse(data).results;
+      const match = films.filter((film) => film.characters.includes(actor));
+      console.log(match.length); // Corrected typo here
+    } catch (error) {
+      console.error('Error parsing JSON data:', error);
+    }
   }
 });
